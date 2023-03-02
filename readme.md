@@ -3,7 +3,7 @@ Aadhaar-JS is a JavaScript library that allows developers to easily retrieve a u
 It is currently under development.
 
 USAGE
-```
+```javascript
 (async function () {
     try {
         const Aadhaar = require('aadhaar-js');
