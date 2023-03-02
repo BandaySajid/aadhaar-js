@@ -1,7 +1,7 @@
 (async function () {
     try {
         const Aadhaar = require('./src/Aadhaar.js');
-        const myAdhaar = new Aadhaar({ aadhaarNumber: '817442021574' });
+        const myAdhaar = new Aadhaar({ aadhaarNumber: 'your_aadhaar_number' });
         const { stdin: input, stdout: output } = require('process');
         const readline = require('readline/promises');
 
