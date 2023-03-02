@@ -15,8 +15,8 @@ USAGE
         myAdhaar.on('otp_generated', async () => {
             console.log('otp generated event');
             const rl = await readline.createInterface({ input, output });
-            const otp = await rl.question('enter the otp : ');
             try {
+                const otp = await rl.question('enter the otp : ');
                 console.log('your entered otp is : ' + otp);
                 const status = await myAdhaar.authenticate(otp);
                 console.log(status);
